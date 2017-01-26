@@ -54,7 +54,7 @@ public class UserLoginServlet extends HttpServlet {
 			session.setAttribute("status", null);
 		}
 
-	    out.println("<form method=\"POST\" action=\"/BankSystemApplication/UserLoginCheck\" name=\"loginform\">");
+	    out.println("<form method=\"POST\" action=\"./UserLoginCheck\" name=\"loginform\">");
 	    out.println("<table>");
 	    out.println("<tr>");
 	    out.println("<td>ユーザーID</td>");
