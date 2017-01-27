@@ -1,10 +1,11 @@
+---
 applications:
-- path: target/banksystem.war
-  memory: 512M
+- path: target/BankSystemAppl-ryunoguchi.war
+  memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: banksystem-ryunoguchi
-  host: banksystem-ryunoguchi
+  name: banksystem-ryunoguchi-20170126
+  host: banksystem-ryunoguchi-20170126
   disk_quota: 1024M
   services:
   - dashDB for Analytics-3o
